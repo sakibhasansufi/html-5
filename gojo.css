@@ -1,0 +1,28 @@
+/* for text in one line */
+nav >ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin: 10px;
+}
+nav li a{
+    text-decoration: none;
+    color: red;
+}
+/* For hovering mouse */
+nav li:hover{
+    background-color: rgb(215, 250, 241);
+}
+/* For adjusting the hover */
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: antiquewhite;
+    padding: 1px;
+
+}
+/*  for showing the correct hover */
+nav li:hover>.dropdown{
+    display: block;
+}
